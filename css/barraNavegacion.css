@@ -1,0 +1,28 @@
+header nav {
+    width: 80%;
+    background: #30373e;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul button {
+    background: white;
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+}
+
+#seleccionado, header nav ul button:hover {
+    background: #30373e;
+    color:white;
+}
