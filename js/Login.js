@@ -23,5 +23,5 @@ function loguearse() {
     let clave = document.querySelector("#txtPassword").value;
     url = 'http://localhost:3000/empleado';
 
-    document.querySelector('#formRegistro').action = "./Vistas/Principal.html";
+    document.querySelector('#formRegistro').action = "./public/Principal.html";
 }
